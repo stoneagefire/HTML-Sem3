@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <style>
+            table {
+                  border: 1px;
+                  border-radius: 20px;
+                  border-color: black;
+                  border-style: solid;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: rgb(38, 193, 245);
+            }
+
+            #btn {
+                  width: 100px;
+                  height: 40px;
+                  background-color: rgb(1, 1, 121);
+                  color: white;
+                  border-radius: 5px;
+                  border-style: solid;
+            }
+      </style>
+</head>
+
+<body bgcolor="#F4D03F">
+      <form >
+            <!-- action="/action_page.php" -->
+            <center>
+                  <table>
+                        <legend>
+                              <h2>LOGIN FORM</h2>
+                        </legend>
+                        <tr>
+                              <td>
+                                    User ID :
+                              </td>
+                              <td>
+                                    <input type="text" id="fname" name="fname" placeholder="Enter your name" width="20"
+                                          height="5">
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    Password :
+                              </td>
+                              <td>
+                                    <input type="text" id="lname" name="lname" placeholder="password">
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    Mobile no. :
+                              </td>
+                              <td>
+                                    <input type="text" id="mobile" name="mobile" maxlength="10"
+                                          placeholder="mobile number">
+                              </td>
+                        </tr>
+                        <tr>
+                              <td colspan="2" align="center">
+                                    <fieldset>
+                                          <legend align="center">
+                                                Gender :
+                                          </legend>
+                                          <input type="radio" id="male" name="fav_language" value="Male" checked="True">
+                                          Male
+                                          <input type="radio" id="male" name="fav_language" value="Male">
+                                          Female
+                                    </fieldset>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    Address :
+                              </td>
+                              <td>
+                                    <textarea id="address" name="address" rows="4" cols="30" placeholder="Enter Address"
+                                          value="Enter Address"></textarea>
+                              </td>
+                        </tr>
+                        <tr>
+                              <!-- <td>
+                                          Languages :
+                                    </td> -->
+                              <td colspan="2" align="center">
+                                    <fieldset>
+                                          <legend align="center">
+                                                Languages :
+                                          </legend>
+                                          <input type="checkbox" id="vehicle1" name="lang1" checked="True">
+                                          Gujarati
+                                          <input type="checkbox" id="vehicle1" name="lang1"> Hindi
+                                          <input type="checkbox" id="vehicle1" name="lang1"> English
+                                    </fieldset>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    Subject :
+                              </td>
+                              <td>
+                                    <select name="subject" id="subject" width="20px">
+                                          <option value="select">--Select subject--</option>
+                                          <option value="volvo">Mathematics</option>
+                                          <option value="saab">Physics</option>
+                                          <option value="opel">Cosmology</option>
+                                    </select>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td colspan="2">
+                                    <center>
+                                          <br>
+                                          <input type="submit" value="Submit" id="btn">
+                                          <br>
+                                    </center>
+                              </td>
+                        </tr>
+
+                  </table>
+      </form>
+
+      <marquee width="40%" direction="right" height="100px">
+            <h2>&#128514;</h2>
+      </marquee>
+      </center>
+</body>
+
+</html>
